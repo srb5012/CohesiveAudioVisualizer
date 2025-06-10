@@ -143,7 +143,7 @@ def updateFrame(frame):
         if displayedFreqHz < MIN_FREQ_HZ:
             displayedFreqHz = 0
 
-    # 4. Update all GUI elements with the new data
+    # Update all GUI elements with the new data
     color = frequencyToColor(displayedFreqHz)
     
     lineWaveform.set_ydata(audioData)
